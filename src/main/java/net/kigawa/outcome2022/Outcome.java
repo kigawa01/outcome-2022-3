@@ -49,8 +49,10 @@ public class Outcome extends ApplicationBase {
     private void docker() {
         logger.info(
                 StringColor.GREEN + "dockerとは?",
-                "linuxの中心となるカーネルを共有したままホストに影響を及ぼすことのない仮想環境を提供するソフトウェア",
-                "同じものを何回も作成したり消したりすることができるので気軽に消したり同じものを複数個効率よく作成することができる"
+                "linuxの中心となるカーネルを共有したままホストに影響を及ぼすことのない",
+                "仮想環境を提供するソフトウェア",
+                "同じものを何回も作成したり消したりすることができるので気軽に消したり",
+                "同じものを複数個効率よく作成することができる"
         );
     }
 
@@ -58,13 +60,14 @@ public class Outcome extends ApplicationBase {
         logger.info(
                 StringColor.GREEN + "kvmとは?",
                 "linuxのカーネルを使用した、仮想環境を作成することができるハイパーバイザ",
-                "ホストの影響を受けることがなく、様々なOSを動かすことができ、分離されているのでホストに影響を与えることもない",
+                "ホストの影響を受けることがなく、様々なOSを動かすことができ、",
+                "分離されているのでホストに影響を与えることもない",
                 "ゲストは普通のサーバーと同じように扱うことができる"
         );
     }
 
     private void action() {
-        logger.info("kvmとdocker構築した、kvmとdockerとは\n\n\n");
+        logger.info("kvmとdocker構築した\n\n\n");
 
     }
 
