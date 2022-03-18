@@ -37,7 +37,7 @@ public class Outcome extends ApplicationBase {
     }
 
     private void etc() {
-        logger.info("このソフトは午前中に石川さんがwebページ作ったと聞いて5時間くらいで作った",
+        logger.info("このソフトは午前中にwebページ作ったと聞いて5時間くらいで作った",
                 "これ作ってて授業忘れた",
                 "時間足りなくて中身が薄くなってしまった\n\n\n"
         );
