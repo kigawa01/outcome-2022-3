@@ -38,7 +38,9 @@ public class Outcome extends ApplicationBase {
 
     private void etc() {
         logger.info("このソフトは午前中に石川さんがwebページ作ったと聞いて5時間くらいで作った",
-                "これ作ってて授業忘れた\n\n\n");
+                "これ作ってて授業忘れた",
+                "時間足りなくて中身が薄くなってしまった\n\n\n"
+        );
     }
 
     private void after() {
@@ -110,7 +112,8 @@ public class Outcome extends ApplicationBase {
 
     private void end() {
         try {
-            logger.info("\n" + FigletFont.convertOneLine("Thank you!"));
+            logger.info("\n" + FigletFont.convertOneLine("Thank you!"),
+                    " https://github.com/kigawa01/outcome-2022-3");
         } catch (IOException e) {
             logger.warning(e);
         }
